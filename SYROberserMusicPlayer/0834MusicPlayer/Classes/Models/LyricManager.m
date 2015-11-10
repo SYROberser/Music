@@ -99,7 +99,7 @@ static LyricManager *lyric = nil;
         if (model.time > time) {
             index = (i-1 > 0) ? i -1 :0;
 #warning 一定要加,否则一直循环到倒数第二个
-//            break;
+            break;
         }
     }
     return index;
